@@ -1,0 +1,51 @@
+
+Row #:2
+Description/Field: Open google
+Command: Open
+Text: Chrome
+FindBy: 
+Field: https://www.google.com
+Skip: N
+SkipNextIfFail: N
+StopAllIfFail: N
+Actual Result: N/A
+Status: Pass
+
+Row #:3
+Description/Field: Search Selenium
+Command: SetTextEnter
+Text: Selenium HQ
+FindBy: xpath
+Field: //input[@name='q']
+Skip: N
+SkipNextIfFail: N
+StopAllIfFail: N
+Actual Result: N/A
+Status: Pass
+
+Row #:4
+Description/Field: Click Selenium
+Command: Click
+Text: 
+FindBy: xpath
+Field: //h3[text()="Selenium"]
+Skip: N
+SkipNextIfFail: N
+StopAllIfFail: N
+Actual Result: N/A
+Status: Pass
+
+Row #:5
+Description/Field: Check label
+Command: CheckAvail
+Text: true
+FindBy: xpath
+Field: //h1[text()="Selenium automates browsers. That's it!"]
+Skip: N
+SkipNextIfFail: N
+StopAllIfFail: N
+Actual Result: true
+Status: Pass
+
+# Updating EXCEL File...
+# Execution is COMPLETED.

@@ -1,0 +1,51 @@
+
+Row #:2
+Description/Field: Open google
+Command: Open
+Text: Chrome
+FindBy: 
+Field: https://www.google.com
+Skip: N
+SkipNextIfFail: N
+StopAllIfFail: N
+Actual Result: N/A
+Status: Pass
+
+Row #:3
+Description/Field: Search Selenium
+Command: SetTextEnter
+Text: Selenium HQ
+FindBy: xpath
+Field: //input[@name='q']
+Skip: N
+SkipNextIfFail: N
+StopAllIfFail: N
+Actual Result: N/A
+Status: Pass
+
+Row #:4
+Description/Field: Click Selenium
+Command: Click
+Text: 
+FindBy: xpath
+Field: /html/body/div[7]/div/div[9]/div[1]/div/div[2]/div[2]/div/div/div[1]/div/div/div/div/div/div[1]/a/h3
+Skip: N
+SkipNextIfFail: N
+StopAllIfFail: N
+Actual Result: N/A
+Status: Fail
+
+Row #:5
+Description/Field: Check label
+Command: TextEqual
+Text: Selenium
+FindBy: xpath
+Field: /html/body/div/main/section[1]/div/div/div/div/h1
+Skip: N
+SkipNextIfFail: N
+StopAllIfFail: N
+Actual Result: N/A
+Status: Fail
+
+# Updating EXCEL File...
+# Execution is COMPLETED.

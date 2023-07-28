@@ -1,0 +1,18 @@
+[0326/130503.174:ERROR:crash_report_database_win.cc(558)] GetFileAttributes C:\Users\LEOMAR~1.PIT\AppData\Local\Temp\scoped_dir10236_1816624056\Crashpad: The system cannot find the file specified. (0x2)
+[0331/113214.929:ERROR:crash_report_database_win.cc(558)] GetFileAttributes C:\Users\LEOMAR~1.PIT\AppData\Local\Temp\scoped_dir15900_2060468901\Crashpad: The system cannot find the file specified. (0x2)
+[0405/231316.420:ERROR:file_io_win.cc(161)] CreateFile C:\Users\LEOMAR~1.PIT\AppData\Local\Temp\scoped_dir5164_300736008\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0405/231316.435:ERROR:file_io_win.cc(170)] CreateFile C:\Users\LEOMAR~1.PIT\AppData\Local\Temp\scoped_dir5164_300736008\Crashpad\reports\5f3ed21c-078b-4be1-a4e6-40a7b898ae0d.dmp: The system cannot find the path specified. (0x3)
+[0405/231316.435:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[0407/203512.796:ERROR:file_io_win.cc(161)] CreateFile C:\Users\LEOMAR~1.PIT\AppData\Local\Temp\scoped_dir17532_1909649027\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0407/203512.817:ERROR:file_io_win.cc(170)] CreateFile C:\Users\LEOMAR~1.PIT\AppData\Local\Temp\scoped_dir17532_1909649027\Crashpad\reports\27b192e7-35ee-414e-bd20-ef3d5153196f.dmp: The system cannot find the path specified. (0x3)
+[0407/203512.817:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[0423/200848.985:ERROR:crash_report_database_win.cc(558)] GetFileAttributes C:\Users\LEOMAR~1.PIT\AppData\Local\Temp\scoped_dir17020_919534628\Crashpad: The system cannot find the file specified. (0x2)
+[0507/150035.423:ERROR:crash_report_database_win.cc(558)] GetFileAttributes C:\Users\LEOMAR~1.PIT\AppData\Local\Temp\scoped_dir11564_1470284976\Crashpad: The system cannot find the file specified. (0x2)
+[0507/150643.373:ERROR:prune_crash_reports.cc(35)] PruneCrashReportDatabase: Failed to get pending reports
+[0813/221647.103:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0813/221647.150:ERROR:exception_snapshot_win.cc(98)] thread ID 18464 not found in process
+[1215/182640.072:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[0119/142919.033:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[0122/180558.172:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[0122/183930.441:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[0127/152032.323:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)

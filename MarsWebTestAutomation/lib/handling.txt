@@ -1,0 +1,113 @@
+Command_Text_Field_Description
+AlertTextEqual/expected value/Not Required
+AttributeValEqual/Empty()/locator|attribute
+AttributeValEqual/expected value/locator|attribute
+AttributeValNotEqual/expected value/locator|attribute
+CheckAvail/false(waiting in secs#) or false/locator
+CheckAvail/true/locator
+CheckDuration/secs#/row# or row#-row# or row#,row#
+CheckFile/Exist(true or false)/filePath or MyUserDir()+\filePath or MyTsDir()+fileName
+CheckSelect/true or false/locator
+CheckAllImagesAvail/Not Required/Not Required/Note: Find value should be tagname(for img only)
+CheckDropdownVal/value1,value2,.../locator
+CheckEnable/True or False/locator
+CheckEnableDropDownItem/True(index#) or False(index#)
+CheckNumberOfElements/#ofelements/locator
+CheckWebAccessibility///
+Click/Not Required or PreFreeze(secs#) or PostFreeze(secs#)/locator
+ConnectSQLServer(Database)/WindowsAuth() or SQLServerAuth()/Server;Database
+DPSelectDay/expected value/locator
+DoubleClick/Not Required/locator
+CSSValEqual/expected value/locator|field
+CSSValNotEqual/expected value/locator|attribute
+CSSValContains/expected value/locator|attribute
+Freeze/secs#/Not Required
+Hover/TextEqual(expected value)/locator1|locator2
+Hover/TextContains(expected value)/locator1|locator2
+Hover/LabelEqual(expected value)/locator1|locator2
+Hover/LabelContains(expected value)/locator1|locator2
+Hover/Click()/locator1|locator2
+Hover/CSSValEqual(expected value)/locator1|locator2
+Hover/CSSValContains(expected value)/locator1|locator2
+HoverClick/Not Required/locator
+JSONEqual/expected value/JSON xpath
+JSONContains/expected value/JSON xpath
+JSONEqual/expected value/ResponseCode()
+JSONNotEqual/expected value/JSON xpath
+LabelContains/expected value/locator
+LabelContains/values(value1,value2,...)/locator
+LabelContains/WaitUntiTrue(expected value)/locator
+LabelContains/StoreXpathIfPass()/locator
+LabelContains/GetRowColVal(row#,col#)/locator
+LabelContains/Empty()/locator
+LabelContains/value1~value2~.../locator
+LabelEqual/expected value/locator
+LabelEqual/Ascending() or Descending() or Ascending(Date & Time) or Ascending(with decimal) or Descending(with decimal)/locator
+LabelEqual/values(value1,value2,...)/locator
+LabelEqual/StoreXPathIfPass()/locator
+LabelEqual/WaitUntilTrue(expected value)/locator
+LabelEqual/GetRowColVal(row#,col#)/locator
+LabelEqual/Empty()/locator
+LabelNotContains/value1~value2~.../locator
+LabelNotContains/expected value/locator
+LabelNotEqual/Empty()/locator
+LabelNotEqual/expected value/locator
+LoginACNFederation/Username|Password/Not Required
+NavigatePage/Refresh(times#) or Forward(times#) or Back(times#)/not required
+NewTab/index#/URL
+Open/Chrome or Chrome-incognito or Firefox or FireFox-Private or IE or Chrome1 or Firefox1 or IE1/URL
+Open/ChangeURL()/URL
+Open/SwitchBrowser(Chrome or Chrome-incognito or Firefox or FireFox-Private or IE or WebMobile or Chrome1 or Firefox1 or IE1)/Not Required
+Open/BrowserStack[browserName,device,realMobile,os_version]/URL/for your reference https:\\www.browserstack.com\docs\automate\selenium\getting-started\java
+Open/WebMobile-Chrome[device]/URL/for your reference https:\\chromedriver.chromium.org\mobile-emulation
+PageContains/expected value/Not Required
+RepeatExternalSteps/row# or row#-row# or row#,row#,.../<file path> or MyTsDir()+fileName.xlsx
+RepeatInternalSteps/row# or row#-row# or row#,row#,.../sheets(regression sheetName, dataSource sheetName)
+RepeatSteps/row# or row#-row# or row#,row#,.../Not Required or Text[row#=expected value];Field[row#=locator];...
+ResultValContains/expected value/GetRowColVal(row#,col#)
+ResultValEqual/expected value/GetRowColVal(row#,col#)
+RightClick/Not Required/locator
+ScrollHorizontal/Right or Left/Not Required
+ScrollVertical/Top or Bottom/Not Required
+Select/index#/Locator
+SetAttribute/Attribute value/locator|attribute
+SetAttribute/Remove()/locator|attribute
+SetLabel/Clear()/locator
+SetLabel/GetRowColVal(row#,col#)/locator
+SetText/expected value/locator
+SetText/Clear()/locator/Clear() will clear or erase the text in the defined locator.
+SetText/GetRowColVal(row#,col#)/locator/GetRowColVal(row#,col#) will get the corresponding value of the defined row & column # & populate it in the defined locator.
+SetText/OpenFileDialog(file path)/locator/OpenFileDialog(filePath) will open the system dialog which automatically browse the defined file path & populate it in the destination field.
+SetText/DragDropFile(file path)/locator/DragDropFile(filePath) will automatically locate the defined file path & populate in the defined locator.
+SetText/GetJSONVal(Json Xpath)/locator
+SetTextEnter/expected value/locator
+SetTextEnter/GetRowColVal(row#,col#)/locator
+SetTextEnter/GetJSONVal(Json Xpath)/locator
+SetKey/Control(a-z)/locator/Control(key) will trigger the control keyboard keys automatically in the defined locator.
+SetKey/Robot(Escape or Cancel or ArrowUp or ArrowDown or ArrowLeft or ArrowRight)/locator/Robot(Key) will trigger the control via robot approach in the defined locator.
+SetKey/Escape(int) or Cancel(int) or ArrowUp(int) or ArrowDown(int) or ArrowLeft(int) or ArrowRight(times)/locator
+SetKey/PasteViaClipBoard[expected value]/locator
+SetVerSecurityCode/Not Required/Not Required
+StoreValJSON(Service)/Request Body value/Endpoint value
+StoreValJSON(Service)/headerField=headerValue,...|Request Body value/Endpoint value
+StoreValJSON(Service)/{}/Endpoint value
+StoreValResult(Database)/ColumnName or ColumnName1;ColumName2;ColumnName3;.../SQL Query value
+StoreValToken(Service)/Request Body value/Endpoint value
+SwitchFrame/DefaultContent()/Not Required
+SwitchFrame/Not Required/Locator
+SwitchTab/index#/Not Required
+TextEqual/expected value/locator
+TextEqual/GetRowColVal(row#,col#)/locator
+TextEqual/Empty()/locator
+TextContains/WaitUntilTrue(expected value)/locator
+TextContains/expected value/locator
+TextContains/GetRowColVal(row#,col#)/locator
+TextContains/Empty()/locator
+TextNotContains/expected value/locator
+TextNotEqual/expected value/locator
+TextNotEqual/Empty()/locator
+TitleEqual/expected value/Not Required
+TooltipTextEqual/expected value/locator|attribute
+TooltipTextNotEqual/expected value/locator|attribute
+WaitUntilInvisible/secs#/locator
+WaitUntilVisible/secs#/locator
